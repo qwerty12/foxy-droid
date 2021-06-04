@@ -249,9 +249,9 @@ class ProductFragment(): ScreenFragment(), ProductAdapter.Callbacks {
     if (canLaunch) {
       actions += Action.LAUNCH
     }
-    if (installed != null) {
+    /*if (installed != null) {
       actions += Action.DETAILS
-    }
+    }*/
     if (canUninstall) {
       actions += Action.UNINSTALL
     }
