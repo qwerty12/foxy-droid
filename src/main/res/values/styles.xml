@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
 
-  <style name="Theme.Main.Light" parent="@android:style/Theme.Material.Light.DarkActionBar">
+  <style name="Theme.Main.Light" parent="@android:style/Theme.Material.Light">
     <item name="android:windowActionBar">false</item>
     <item name="android:windowNoTitle">true</item>
     <item name="android:toolbarStyle">@style/Widget.Main.Toolbar</item>
@@ -33,8 +33,8 @@
     <item name="android:subtitleTextAppearance">@android:style/TextAppearance.Material.Widget.Toolbar.Subtitle</item>
   </style>
 
-  <style name="Theme.Main.Toolbar.Popup" parent="Theme.Main.Dark">
-    <item name="android:colorBackground">?android:attr/colorPrimaryDark</item>
+  <style name="Theme.Main.Toolbar.Popup" parent="Theme.Main.Light">
+    <item name="android:colorBackground">?android:attr/colorPrimary</item>
   </style>
 
 </resources>
